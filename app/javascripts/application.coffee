@@ -62,12 +62,8 @@ module.exports = class Application
 		keyboard = new QwertyHancock(settings)
 
 		window.midi = new MIDI
-		midi.messageEvent = (ev) =>
+		midi.messageEvent = (cmd, channel, noteNumber, velocity) =>
 			freq =  440 * Math.pow(2, (ev.data[1] - 33) / 12);
-			cmd = ev.data[0] >> 4;
-			channel = ev.data[0] & 0xf;
-			noteNumber = ev.data[1];
-			velocity = ev.data[2];
 
 			if cmd is 8
 				@noteOff freq
