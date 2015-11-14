@@ -14,7 +14,7 @@ module.exports = class MIDI
 	onMIDIStarted: (midi) =>
 		console.log "start"
 		midi.inputs.forEach (e) =>
-			if e.name.match(/MIDI/)
+			if e.name.match(/midi/i)
 				console.log('MIDI: ', e.name)
 				e.onmidimessage = @onMIDIMessage
 				@MIDIObject.port = e

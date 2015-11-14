@@ -65,9 +65,14 @@ module.exports = class Application
 		midi.messageEvent = (cmd, channel, noteNumber, velocity) =>
 			freq =  440 * Math.pow(2, (noteNumber - 33) / 12);
 
+			if velocity is 0
+				@noteOff freq
+				return
+
 			if cmd is 8
 				@noteOff freq
-			if cmd is 9 
+
+			if cmd is 9
 				@noteOn freq
 
 		@context = new AudioContext
