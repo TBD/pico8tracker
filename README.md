@@ -1,9 +1,11 @@
 pico8 tracker by TBD
 
 **what**
+
 pico8 browser based tracker
 
 **install**
+
 1. install brunch `npm install brunch -g`
 2. `git clone https://github.com/TBD/pico8tracker`
 3. `npm install`
