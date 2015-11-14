@@ -1,3 +1,6 @@
+# from https://github.com/stuartmemo/wavy-jones
+# translated to Coffeescript
+
 module.exports = class Oscilloscope
 	constructor: (context, elem) ->
 		elem = document.getElementById(elem)
