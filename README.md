@@ -11,10 +11,13 @@
 **links**
 
 http://lexaloffle.com/pico-8.php - Pico8 fantasy console
+
 http://plugins.ro - my site
 
 **thanks**
 
 https://github.com/stuartmemo/qwerty-hancock - keyboard
+
 https://github.com/stuartmemo/wavy-jones - oscilloscope
+
 https://github.com/KATT/brunch-jade-stylus-coffee - coffee/jade/stylus template 
