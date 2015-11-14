@@ -63,7 +63,7 @@ module.exports = class Application
 
 		window.midi = new MIDI
 		midi.messageEvent = (cmd, channel, noteNumber, velocity) =>
-			freq =  440 * Math.pow(2, (ev.data[1] - 33) / 12);
+			freq =  440 * Math.pow(2, (noteNumber - 33) / 12);
 
 			if cmd is 8
 				@noteOff freq
