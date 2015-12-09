@@ -1,5 +1,7 @@
 #pico8 browser based tracker
 
+![screenshot](/screenshot.png?raw=true)
+
 **install**
 
 1. install brunch `npm install brunch -g`
