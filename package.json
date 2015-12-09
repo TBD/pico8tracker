@@ -1,12 +1,12 @@
 {
-  "author": "Alexander Johansson",
-  "name": "brunch-stylus-jade-coffee",
-  "description": "Minimal brunch template with stylus, jade & coffeee.",
-  "version": "1.2.0",
+  "author": "Octavian TBD Chis",
+  "name": "pico8tracker",
+  "description": "pico8 browser tracker",
+  "version": "1.0.0",
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/KATT/brunch-jade-stylus-coffee"
+    "url": "https://github.com/TBD/pico8tracker"
   },
   "engines": {
     "node": "~0.6.10 || 0.8 || 0.9"
